@@ -1,0 +1,70 @@
+body {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+}
+.item__counter {
+	font-family:  sans-serif;
+	background: #171717;
+	border-radius: 4px;
+    color: white;
+	width: 120px;
+	display: flex;
+	font-size: 18px;
+	height: 30px;
+	overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    box-shadow: 0 0 10px 0 rgb(112, 52, 112);
+    position: relative;
+}
+.item__control {
+	width: 40px;
+	cursor: pointer;
+	transition: 0.2s ease-in;
+	text-align: center;
+    position: relative;
+}
+.plus, 
+.minus {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plus:hover {
+    background-color: tomato;
+}
+.minus:hover {
+    background-color: tomato;
+}
+.item__control:hover {
+    color: #FFF;
+}
+.btn__cancel {
+    background-color: tomato;
+    padding: 7px 20px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 4px 3px 0 rgb(125, 60, 50);
+    cursor: pointer;
+    transition: all .1s ease;
+    position: relative;
+    top: 0;
+}
+.btn__cancel_toggle {
+    background-color: green;
+    box-shadow: 0 4px 3px 0 rgb(35, 70, 25);
+}
+.btn__cancel:active {
+    top: 3px;
+    box-shadow: 0 1px 2px 0 rgb(170, 80, 65);
+}
